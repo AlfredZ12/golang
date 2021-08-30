@@ -18,8 +18,8 @@ var albums = []alf{
 	{1, "Yessica", 24, false}}
 
 type alf struct {
-	id    int    `json:"id"`
-	name  string `json:"name"`
-	age   int    `json:"age"`
-	state bool   `json:"state"`
+	id    int    `structtagjson:"id"`
+	name  string `structtagjson:"name"`
+	age   int    `structtagjson:"age"`
+	state bool   `structtagjson:"state"`
 }
